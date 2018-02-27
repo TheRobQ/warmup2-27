@@ -1,0 +1,75 @@
+html,
+body{
+  height:100%
+}
+
+.container{
+}
+
+.graybox{
+  background-color: #424242;
+  padding-top:12px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  height: 45px;
+  margin-bottom:20px;
+}
+
+.gboxText{
+  color:white;
+}
+.btn-success{
+  height:47px !important;
+  margin-top: -8px;
+}
+
+p{
+  color: darkgray;
+  text-align: left;
+}
+
+#give{
+  height:45px;
+  width: 40%;
+  font-size: 1.25rem;
+  margin-right: 30px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.why{
+  text-align: left;
+  margin-right:66%;
+  font-style: italic;
+}
+
+.mainbox{
+  height: 403px;
+  width: 300px;
+  margin-bottom:10px;
+  display: block;
+  padding:0;
+  /* text-align: center; */
+}
+
+.textBox{
+  border: 1px solid lightgray;
+padding:12px
+}
+.padding{
+  height:24px;
+  margin-bottom: 12px;
+  display:block;
+  background-color: lightgray;
+}
+
+#orange{
+  color: #e16945
+}
+
+.progress{
+  width:100%;
+  border-radius: 0 !important;
+}
