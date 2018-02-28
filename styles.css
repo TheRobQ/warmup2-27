@@ -1,75 +1,114 @@
-html,
-body{
-  height:100%
+html, body {
+  height: 100%;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
 }
 
-.container{
-}
+.container {}
 
-.graybox{
+  .mainbox {
+    height: 303px;
+    width: 290px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 0;
+    /* text-align: center; */
+  }
+
+/* top box */
+.graybox {
   background-color: #424242;
-  padding-top:12px;
+  padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 6px;
   height: 45px;
-  margin-bottom:20px;
+  margin-bottom: 10px;
+  position:relative;
 }
 
-.gboxText{
-  color:white;
+.graybox:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #424242;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: 110px;
+	margin-bottom: -10px;
 }
-.btn-success{
-  height:47px !important;
+
+.gboxText {
+  color: white;
+  text-align: center;
+}
+
+/* main css */
+.btn-success {
+  height: 47px !important;
   margin-top: -8px;
+    width:47%;
 }
 
-p{
+p {
   color: darkgray;
   text-align: left;
 }
 
-#give{
-  height:45px;
-  width: 40%;
+#give {
+  height: 45px;
+  width: 47%;
   font-size: 1.25rem;
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.why{
+.why {
   text-align: left;
-  margin-right:66%;
+  margin-right: 50%;
   font-style: italic;
+  margin-top: 4px
 }
 
-.mainbox{
-  height: 403px;
-  width: 300px;
-  margin-bottom:10px;
-  display: block;
-  padding:0;
-  /* text-align: center; */
-}
-
-.textBox{
+.textBox {
   border: 1px solid lightgray;
-padding:12px
+  padding: 19px;
+  margin-bottom: 13px;
 }
-.padding{
-  height:24px;
+
+.padding {
+  height: 24px;
   margin-bottom: 12px;
-  display:block;
-  background-color: lightgray;
+  display: block;
+  /* background-color: lightgray; */
 }
 
-#orange{
-  color: #e16945
+#orange {
+  color: #e16945;
+  font-weight: bold;
 }
 
-.progress{
-  width:100%;
+.progress {
+  width: 100%;
   border-radius: 0 !important;
+}
+
+#forButtons{
+  justify-content: space-between;
+}
+.bottomB{
+  border: 1px solid lightgray;
+  width: 48%;
+}
+
+#left{
+  margin-right: 7px;
 }
